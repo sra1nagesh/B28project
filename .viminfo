@@ -21,13 +21,24 @@
 # Registers:
 
 # File marks:
-'0  5  0  ~/f1
+'0  5  15  ~/f2
+'1  5  0  ~/f1
 
 # Jumplist (newest first):
+-'  5  15  ~/f2
+-'  1  0  ~/f2
+-'  5  0  ~/f1
+-'  1  0  ~/f1
 -'  5  0  ~/f1
 -'  1  0  ~/f1
 
 # History of marks within files (newest to oldest):
+
+> ~/f2
+	"	5	15
+	^	5	16
+	.	5	15
+	+	5	15
 
 > ~/f1
 	"	5	0
